@@ -8,7 +8,7 @@
 <html <?php language_attributes(); ?>>
   <head>
     <title>spencerenglish.com</title>
-    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js'></script> 
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js'></script>
     
     <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>">
     <meta name="description" content="<?php bloginfo('description'); ?>">
