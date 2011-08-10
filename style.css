@@ -1,0 +1,171 @@
+/*
+Theme Name: Spencerenglish
+Author: Spencer Williams
+Author URI: spencerenglish.com
+Version: 3.0
+
+*/
+
+/* layout and navigation */
+@font-face{font-family:'Hero';src:url('Hero.otf') format('opentype'), url('Hero Light.otf') format('opentype')}
+body {
+  margin:0;
+  padding:0;
+  background: #f7f7f7 url('stripe.png') repeat left top;
+  font:normal normal 300 16px/31px 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  color: #333333;
+  overflow-y:scroll;
+}
+p {
+  margin: 0; padding: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+#header {
+  background-color: #f7f7f7;
+  width:100%;
+  height:93px;
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: #bbb;
+  position:absolute;
+  z-index:-60;
+}
+#container {
+  width: 960px;
+  margin: 0 auto;
+}
+#banner {
+  margin: 0 auto;
+  width: 515px;
+  padding-top: 7px;
+  height: 47px;
+}
+#banner img { height: 40px; }
+#nav {
+  color: #cccccc;
+  text-shadow: rgba(0,0,0,0.4) 1px 1px 1px;
+}
+a:hover, .nav-current {
+  text-shadow: rgba(255,255,255,0.6) 1px 1px 1px !important;
+}
+#rb-ribbon {
+  font-family: 'Hero';
+  font-size: 24px;
+  line-height: 40px;
+}
+.nav-spacer {
+  width: 133px;
+  display: inline-block;
+}
+
+/* sticky footer by Ryan Fait http://ryanfait.com/sticky-footer */
+html, body {
+  height: 100%;
+}
+#wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%; /* IE */
+  margin: 0 auto -68px;
+}
+#push {
+  height: 68px;
+}
+#footer {
+  font-family: 'Hero Light';
+  font-size: 12px;
+  line-height: 16px;
+  color: #999999;
+  text-shadow: rgba(0,0,0,0.75) 2px 2px 0;
+  padding: 4px 8px 0 8px;
+  margin: 0 auto;
+  margin-top: 16px;
+  height: 48px;
+  background: rgba(0,0,0,0.75);
+  -moz-box-shadow: rgba(102,102,102,0.75) 1px 1px 1px, rgba(0,0,0,0.75) 2px 2px 1px inset;
+  -webkit-box-shadow: rgba(102,102,102,0.75) 1px 1px 1px, rgba(0,0,0,0.75) 2px 2px 1px inset;
+  box-shadow: rgba(102,102,102,0.75) 1px 1px 1px, rgba(0,0,0,0.75) 2px 2px 1px inset;
+}
+#footer>div{
+  width:960px;
+  margin:0 auto;
+}
+
+/* twitter bird, twitter feed */
+#tw-bar {
+  position: relative;
+}
+#tw-feed {
+  width: 800px;
+  text-align: right;
+}
+#tw-img {
+  position: absolute;
+  max-width: 100px;
+  top:-15px;
+  right:-5px;
+}
+
+/* article styles */
+.article {
+  margin-top: 16px;
+  width: 884px;
+  background: rgba(255,255,255,0.4);
+  padding: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  -moz-box-shadow: rgba(255,255,255,0.4) 1px 1px 1px inset, rgba(0,0,0,0.75) 2px 2px 1px;
+  -webkit-box-shadow: rgba(255,255,255,0.4) 1px 1px 1px inset, rgba(0,0,0,0.75) 2px 2px 1px;
+  box-shadow: rgba(255,255,255,0.4) 1px 1px 1px inset, rgba(0,0,0,0.75) 2px 2px 1px;
+}
+pre, .note {
+  display: block;
+  margin-top: 16px;
+  max-width: 900px;
+}
+code, pre {
+  font-family: "Courier New", Courier, monospace;
+}
+code, pre, .note {
+  color: #999;
+  text-shadow: rgba(0,0,0,0.75) 2px 2px 0;
+  line-height: normal;
+  padding: 3px 8px;
+  display: inline-block;
+  background: #333333;
+  -moz-border-radius: 1px;
+  -webkit-border-radius: 1px;
+  border-radius: 1px;
+  overflow-x: auto;
+  max-width: 900px;
+  -moz-box-shadow: rgba(102,102,102,0.75) 1px 1px 1px, rgba(0,0,0,0.75) 2px 2px 1px inset;
+  -webkit-box-shadow: rgba(102,102,102,0.75) 1px 1px 1px, rgba(0,0,0,0.75) 2px 2px 1px inset;
+  box-shadow: rgba(102,102,102,0.75) 1px 1px 1px, rgba(0,0,0,0.75) 2px 2px 1px inset;
+}
+.note {
+  width: 884px;
+  font-family: 'Hero Light';
+  line-height: 24px;
+}
+.article code, .article pre {
+  -moz-box-shadow: rgba(255,255,255,0.4) 1px 1px 1px, rgba(0,0,0,0.75) 2px 2px 1px inset;
+  -webkit-box-shadow: rgba(255,255,255,0.4) 1px 1px 1px, rgba(0,0,0,0.75) 2px 2px 1px inset;
+  box-shadow: rgba(255,255,255,0.4) 1px 1px 1px, rgba(0,0,0,0.75) 2px 2px 1px inset;
+  margin: 0;
+}
+.article .content a, .article .meta a {
+  color: #555;
+}
+.article .header {
+  font-family: 'Hero';
+  font-size: 24px;
+}
+.article .meta {
+  font-family: 'Hero Light';
+  font-size: 12px;
+  line-height: normal;
+}
