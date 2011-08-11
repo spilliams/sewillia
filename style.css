@@ -26,12 +26,11 @@ a {
 #header {
   background-color: rgba(247,247,247,0.7);
   width:100%;
-  height:94px;
+  height:94px; /* change the value in the script too! d'oh */
   border-width: 0 0 1px 0;
   border-style: solid;
   border-color: #bbb;
-  position:absolute;
-  z-index:-60;
+  top:0;
 }
 #banner {
   margin: 0 auto;
@@ -47,7 +46,7 @@ a {
   margin: 0 auto;
 }
 a:hover, .nav-current {
-  text-shadow: rgba(255,255,255,0.6) 1px 1px 1px !important;
+  text-shadow: rgba(255,255,255,0.8) 1px 1px 1px !important;
 }
 #rb-ribbon {
   font-family: 'Hero';
@@ -100,7 +99,7 @@ html, body {
 }
 #footer-menu {
   height: 234px;
-  background: rgba(0,0,0,0.8);
+  background: rgba(0,0,0,0.7);
   padding: 8px; 
 }
 #footer-menu .container>div {
@@ -137,8 +136,7 @@ html, body {
   text-align:center;
 }
 #footer a:hover {
-  text-shadow: none !important;
-  color: #cccccc;
+  
 }
 
 /* treatments */
@@ -155,7 +153,7 @@ html, body {
   -webkit-box-shadow: rgba(102,102,102,0.75) 1px 1px 1px, rgba(0,0,0,0.75) 1px 1px 1px inset;
   box-shadow: rgba(102,102,102,0.75) 1px 1px 1px, rgba(0,0,0,0.75) 1px 1px 1px inset;
   text-shadow: rgba(0,0,0,0.75) 1px 1px 0;
-  color: #999999;
+  color: #cccccc;
 }
 
 /* article styles */
@@ -167,15 +165,11 @@ pre {
 }
 code, pre {
   font-family: "Courier New", Courier, monospace;
-  color: #999;
+  color: #ccc;
   text-shadow: rgba(0,0,0,0.75) 1px 1px 0;
   line-height: normal;
   padding: 3px 8px;
   display: inline-block;
-  background: #333333;
-  -moz-border-radius: 1px;
-  -webkit-border-radius: 1px;
-  border-radius: 1px;
   overflow-x: auto;
   max-width: 100%;
   box-sizing: border-box;
@@ -186,8 +180,8 @@ code, pre {
   box-shadow: rgba(255,255,255,0.4) 1px 1px 1px, rgba(0,0,0,0.75) 1px 1px 1px inset;
   margin: 0;
 }
-.article code, .article pre {
-  
+.light code, .light pre {
+  background: #f7f7f7 url('fabric_2.png') repeat fixed;
 }
 .article .content a, .article .meta a {
   color: #555;
