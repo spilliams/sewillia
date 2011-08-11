@@ -7,8 +7,14 @@
 <!-- begin sidebar -->
 
 <div id='sidebar'>
- <div class='light'>this is a sidebar</div>
- <div class='light'>here's another one. this one is even split into<hr>multiple sections</div>
+ 
+ <?php if ( function_exists('dynamic_sidebar')) :
+   dynamic_sidebar('right-menu');
+ endif; ?>
+ 
+ <?php if ( is_user_logged_in() ) { ?>
+   <div class='light'><a href="<?php echo wp_logout_url(curPageUrl()); ?>">Log Out</a></div>
+ <?php } ?>
 </div>
 
 <!-- end sidebar -->

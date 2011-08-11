@@ -6,13 +6,17 @@
 
 automatic_feed_links();
 
-if ( function_exists('register_sidebar') )
+if ( function_exists('register_sidebar') ){
   register_sidebar(array(
-    'before_widget' => '<li id="%1$s" class="widget %2$s">',
-    'after_widget' => '</li>',
+    'id' => 'right-menu',
+    'name' => __( 'Right Menu', $text_domain ),
+    'description' => __( 'This sidebar is located in the right column of the page.', $text_domain ),
+    'before_widget' => '<div class="light">',
+    'after_widget' => '</div>',
     'before_title' => '',
     'after_title' => '',
   ));
+}
 
 function curPageURL() {
   $pageURL = 'http';
@@ -25,6 +29,7 @@ function curPageURL() {
   }
   return $pageURL;
 }
+
 
 // remove the original wpautop function
 //remove_filter('the_excerpt', 'wpautop');

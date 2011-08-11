@@ -11,7 +11,7 @@ Version: 3.0
 body {
   margin:0;
   padding:0;
-  background: #f7f7f7 url('fabric_1.png') repeat left top;
+  background: #f7f7f7 url('fabric_1.png') repeat fixed;
   font:normal normal 300 16px/31px 'Helvetica Neue',Helvetica,Arial,sans-serif;
   color: #333333;
   overflow-y:scroll;
@@ -64,13 +64,8 @@ a:hover, .nav-current {
   width: 366px;
   float: right;
 }
-#sidebar div {
+#sidebar>div {
   margin-top: 16px;
-  background: #f7f7f7;
-  padding: 8px;
-  -moz-box-shadow: rgba(255,255,255,0.4) 1px 1px 1px inset, rgba(0,0,0,0.75) 1px 1px 1px;
-  -webkit-box-shadow: rgba(255,255,255,0.4) 1px 1px 1px inset, rgba(0,0,0,0.75) 1px 1px 1px;
-  box-shadow: rgba(255,255,255,0.4) 1px 1px 1px inset, rgba(0,0,0,0.75) 1px 1px 1px;
 }
 
 /* sticky footer by Ryan Fait http://ryanfait.com/sticky-footer */
@@ -81,27 +76,26 @@ html, body {
   min-height: 100%;
   height: auto !important;
   height: 100%; /* IE */
-  margin: 0 auto -68px;
+  margin: 0 auto -36px;
 }
 #push {
-  height: 68px;
+  height: 36px;
 }
 #footer {
   font-family: 'Hero Light';
-  font-size: 12px;
+  font-size: 16px;
   line-height: 16px;
   padding: 4px 8px 0 8px;
   margin: 0 auto;
   margin-top: 16px;
-  height: 48px;
-  background: rgba(0,0,0,0.75);
+  height: 16px;
+  background: rgba(0,0,0,0.8);
+  text-align:center;
 }
-#footer>div{
-  width:960px;
-  margin:0 auto;
-}
+
 /* treatments */
 .light {
+  padding: 8px;
   background: #f7f7f7;
   -moz-box-shadow: rgba(255,255,255,0.4) 1px 1px 1px inset, rgba(0,0,0,0.75) 1px 1px 1px;
   -webkit-box-shadow: rgba(255,255,255,0.4) 1px 1px 1px inset, rgba(0,0,0,0.75) 1px 1px 1px;
@@ -109,17 +103,17 @@ html, body {
 }
 .dark {
   background: #333333;
-  -moz-box-shadow: rgba(102,102,102,0.75) 1px 1px 1px, rgba(0,0,0,0.75) 2px 2px 1px inset;
-  -webkit-box-shadow: rgba(102,102,102,0.75) 1px 1px 1px, rgba(0,0,0,0.75) 2px 2px 1px inset;
-  box-shadow: rgba(102,102,102,0.75) 1px 1px 1px, rgba(0,0,0,0.75) 2px 2px 1px inset;
-  text-shadow: rgba(0,0,0,0.75) 2px 2px 0;
+  -moz-box-shadow: rgba(102,102,102,0.75) 1px 1px 1px, rgba(0,0,0,0.75) 1px 1px 1px inset;
+  -webkit-box-shadow: rgba(102,102,102,0.75) 1px 1px 1px, rgba(0,0,0,0.75) 1px 1px 1px inset;
+  box-shadow: rgba(102,102,102,0.75) 1px 1px 1px, rgba(0,0,0,0.75) 1px 1px 1px inset;
+  text-shadow: rgba(0,0,0,0.75) 1px 1px 0;
   color: #999999;
 }
+
 /* article styles */
 .article {
   margin-top: 16px;
   width: 542px;
-  padding: 8px;
 }
 pre {
   width: 100%;
@@ -127,7 +121,7 @@ pre {
 code, pre {
   font-family: "Courier New", Courier, monospace;
   color: #999;
-  text-shadow: rgba(0,0,0,0.75) 2px 2px 0;
+  text-shadow: rgba(0,0,0,0.75) 1px 1px 0;
   line-height: normal;
   padding: 3px 8px;
   display: inline-block;
@@ -140,9 +134,9 @@ code, pre {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  -moz-box-shadow: rgba(255,255,255,0.4) 1px 1px 1px, rgba(0,0,0,0.75) 2px 2px 1px inset;
-  -webkit-box-shadow: rgba(255,255,255,0.4) 1px 1px 1px, rgba(0,0,0,0.75) 2px 2px 1px inset;
-  box-shadow: rgba(255,255,255,0.4) 1px 1px 1px, rgba(0,0,0,0.75) 2px 2px 1px inset;
+  -moz-box-shadow: rgba(255,255,255,0.4) 1px 1px 1px, rgba(0,0,0,0.75) 1px 1px 1px inset;
+  -webkit-box-shadow: rgba(255,255,255,0.4) 1px 1px 1px, rgba(0,0,0,0.75) 1px 1px 1px inset;
+  box-shadow: rgba(255,255,255,0.4) 1px 1px 1px, rgba(0,0,0,0.75) 1px 1px 1px inset;
   margin: 0;
 }
 .article code, .article pre {
@@ -156,7 +150,6 @@ code, pre {
   font-size: 24px;
 }
 .article .meta {
-  font-family: 'Hero Light';
-  font-size: 12px;
+  font-size: 11px;
   line-height: normal;
 }
