@@ -1,19 +1,7 @@
-"Web 2.0"
-bold colors
-simple nav
-bigger text
-use of whitespace
-use of columns
-cute icons
-
-big shit:
-cute icons
-
-wordpresssss:
-gallery posts get put in the photos page
-travel page ("page category page template")
-comments shit
-
-small finals:
-links in article meta
-links in article
+headroom
+a:hover treatment
+banner grid
+vertical-spacing
+code/pre treatment (gist?)
+last.fm plugin
+twitter plugin
