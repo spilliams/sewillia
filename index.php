@@ -6,7 +6,7 @@
 get_header();
 ?>
 <?php if (have_posts()): while (have_posts()) : the_post() ?>
-<div class='article'>
+<div class='article light'>
   <div class='header'>
     <a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a>
   </div>

@@ -76,17 +76,8 @@
 
           </div>
         </div>
-        <!--[if IE]>
-          <noscript>
-            <div class='note'>
-              Hi there! It appears as though you're viewing this site with Internet Explorer and you have javascript turned off.<br />
-              Unfortunately, this site will look dumb under such conditions.<br />
-              We recommend either turning javascript on, you install the <a href="http://code.google.com/chrome/chromeframe/">Internet Explorer Google Chrome Frame plugin</a> which fixes IE, or install a better browser like <a href="http://www.apple.com/safari/">Safari</a>, <a href="http://www.google.com/chrome">Chrome</a> or <a href="http://www.mozilla.com/en-US/firefox/personal.html">Firefox</a>. Don't say we didn't warn you.
-            </div>
-          </noscript>
-        <![endif]-->
 
         <!--TODO put in a note article for "Viewing posts tagged 'Foo'" and one for "Viewing archive for 'Bar'"-->
-
+        <?php get_sidebar() ?>
       
       <!-- end header -->

@@ -8,7 +8,7 @@
     </div>
     <div id='push'></div>
   </div>
-  <div id='footer'>
+  <div id='footer' class='dark'>
     <div>
     &copy; 2011 <a href='mailto:s@spencerenglish.com'>Spencer English Williams</a>. Last updated 10 June 2011.<br>
     <?php echo get_num_queries(); ?> queries. <?php timer_stop(1); ?> seconds.<br>

@@ -8,10 +8,6 @@ cute icons
 
 big shit:
 cute icons
-tweet bar
-article styles
-footer styles
-gallery styles
 
 wordpresssss:
 gallery posts get put in the photos page
