@@ -17,12 +17,12 @@
         <div class='vr'></div>
         <div class='footer-menu'>
           My Networks<br>
-          <a href='http://twitter.com/#!/spilliams' target='_blank' class='networklink'><img src="<?php bloginfo('stylesheet_directory'); ?>/badges_01.png" style="height:40px"> twitter</a>
-          <a href='http://github.com/spilliams' target='_blank' class='networklink'><img src="<?php bloginfo('stylesheet_directory'); ?>/badges_06.png" style="height:40px"> github</a><br>
-          <a href='http://www.linkedin.com/in/spencerenglish' target='_blank' class='networklink'><img src="<?php bloginfo('stylesheet_directory'); ?>/badges_02.png" style="height:40px"> linkedin</a>
-          <a href='http://www.last.fm/user/pastavibes' target='_blank' class='networklink'><img src="<?php bloginfo('stylesheet_directory'); ?>/badges_04.png" style="height:40px"> lastfm</a><br>
-          <a href='http://www.facebook.com/spilliams' target='_blank' class='networklink'><img src="<?php bloginfo('stylesheet_directory'); ?>/badges_03.png" style="height:40px"> facebook</a>
-          <a href='http://8tracks.com/pastavibes' target='_blank' class='networklink'><img src="<?php bloginfo('stylesheet_directory'); ?>/badges_05.png" style="height:40px"> 8tracks</a>
+          <a href='http://twitter.com/#!/spilliams' target='_blank' class='networklink'><div class='badge-out'><div id='tw-badge' class='badge-in'>t</div></div> twitter</a>
+          <a href='http://github.com/spilliams' target='_blank' class='networklink'><div class='badge-out'><div id='g-badge' class='badge-in'>g</div></div> github</a><br>
+          <a href='http://www.linkedin.com/in/spencerenglish' target='_blank' class='networklink'><div class='badge-out'><div id='in-badge' class='badge-in'>in</div></div> linkedin</a>
+          <a href='http://www.last.fm/user/pastavibes' target='_blank' class='networklink'><div class='badge-out'><div id='fm-badge' class='badge-in'>fm</div></div> lastfm</a><br>
+          <a href='http://www.facebook.com/spilliams' target='_blank' class='networklink'><div class='badge-out'><div id='fb-badge' class='badge-in'>fb</div></div> facebook</a>
+          <a href='http://8tracks.com/pastavibes' target='_blank' class='networklink'><div class='badge-out'><div id='e-badge' class='badge-in'>8</div></div> 8tracks</a>
           <div class='clearfix'></div>
         </div>
         <div class='clearfix'></div>
