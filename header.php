@@ -57,10 +57,10 @@
   <body <?php body_class(); ?>>
     <div id='wrapper'>
       <div id='header'>
-        <div id='banner'>
+        <div id='banner' class='center'>
           <a href='/'><img src='<?php bloginfo('stylesheet_directory'); ?>/banner.png'></a>
         </div>
-          <div id='nav'>
+          <div id='nav' class='center'>
             <div id='ribbon'>
               <div id='rb-left-tri-dk' class='rb-tri rb-dk rb-left'></div>
               <div id='rb-right-tri-dk' class='rb-tri rb-dk rb-right'></div>
@@ -95,7 +95,7 @@
       </div>
         
         
-      <div id="main" class='container'>
+      <div id="main" class='center full-wide'>
         
 
         <!--TODO put in a note article for "Viewing posts tagged 'Foo'" and one for "Viewing archive for 'Bar'"-->

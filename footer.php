@@ -10,7 +10,7 @@
   </div>
   <div id='footer'>
     <div id='footer-menu' class='dark'>
-      <div class='container'>
+      <div class='center full-wide'>
         <div class='footer-menu'>here's a menu!</div>
         <div class='vr'></div>
         <div class='footer-menu'>and a second one!</div>

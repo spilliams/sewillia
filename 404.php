@@ -8,8 +8,8 @@
 
 get_header(); ?>
 
-	<div id="container">
-		<div id="content" role="main">
+	<div class="article light">
+	  <div class="center full-wide">
 
 			<div id="post-0" class="post error404 not-found">
 				<div class="entry-content">
@@ -18,8 +18,7 @@ get_header(); ?>
           This page is not here.</center>
 				</div><!-- .entry-content -->
 			</div><!-- #post-0 -->
-
-		</div><!-- #content -->
+    </div>
 	</div><!-- #container -->
 
 <?php get_footer(); ?>

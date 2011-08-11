@@ -33,7 +33,6 @@ a {
   top:0;
 }
 #banner {
-  margin: 0 auto;
   width: 515px;
   padding-top: 7px;
   height: 47px;
@@ -43,7 +42,6 @@ a {
   color: #cccccc;
   text-shadow: rgba(0,0,0,0.4) 1px 1px 1px;
   width: 942px;
-  margin: 0 auto;
 }
 a:hover, .nav-current {
   text-shadow: rgba(255,255,255,0.8) 1px 1px 1px !important;
@@ -58,8 +56,10 @@ a:hover, .nav-current {
   display: inline-block;
 }
 #searchform label {display:none;}
-.container {
+.full-wide {
   width: 798px;
+}
+.center {
   margin: 0 auto;
 }
 /* the new clearfix method I read about over at Perishable Press
@@ -93,7 +93,6 @@ html, body {
   height: 286px;
 }
 #footer {
-  margin: 0 auto;
   margin-top: 16px;
   height: 266px;
 }
