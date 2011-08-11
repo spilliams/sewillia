@@ -24,7 +24,7 @@ a {
   text-decoration: none;
 }
 #header {
-  background-color: rgba(247,247,247,0.8);
+  background-color: rgba(247,247,247,0.7);
   width:100%;
   height:94px;
   border-width: 0 0 1px 0;
@@ -32,10 +32,6 @@ a {
   border-color: #bbb;
   position:absolute;
   z-index:-60;
-}
-#container {
-  width: 942px;
-  margin: 0 auto;
 }
 #banner {
   margin: 0 auto;
@@ -47,6 +43,8 @@ a {
 #nav {
   color: #cccccc;
   text-shadow: rgba(0,0,0,0.4) 1px 1px 1px;
+  width: 942px;
+  margin: 0 auto;
 }
 a:hover, .nav-current {
   text-shadow: rgba(255,255,255,0.6) 1px 1px 1px !important;
@@ -57,15 +55,13 @@ a:hover, .nav-current {
   line-height: 40px;
 }
 .nav-spacer {
-  width: 132px;
+  width: 39px;
   display: inline-block;
 }
-#sidebar {
-  width: 366px;
-  float: right;
-}
-#sidebar>div {
-  margin-top: 16px;
+#searchform label {display:none;}
+.container {
+  width: 798px;
+  margin: 0 auto;
 }
 /* the new clearfix method I read about over at Perishable Press
  * use it by putting "<div class='clearfix'></div>" after a floated element
@@ -92,20 +88,46 @@ html, body {
   min-height: 100%;
   height: auto !important;
   height: 100%; /* IE */
-  margin: 0 auto -36px;
+  margin: 0 auto -286px;
 }
 #push {
-  height: 36px;
+  height: 286px;
 }
 #footer {
-  font-size: 11px;
-  line-height: 16px;
-  padding: 4px 8px 0 8px;
   margin: 0 auto;
   margin-top: 16px;
-  height: 16px;
+  height: 266px;
+}
+#footer-menu {
+  height: 250px;
   background: rgba(0,0,0,0.8);
+  padding: 8px; 
+}
+#footer-menu .container>div {
+  display: inline-block;
+}
+.footer-menu {
+  width: 260px;
+  float:left;
+}
+.vr {
+  height: 234px;
+  width: 1px;
+  margin: 5px 4px;
+  float:left;
+  background: -moz-linear-gradient(top, rgba(247,247,247,0) 0%, rgba(247,247,247,0.3) 40%, rgba(247,247,247,0.3) 60%, rgba(247,247,247,0) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,247,247,0)), color-stop(40%,rgba(247,247,247,0.3)), color-stop(60%,rgba(247,247,247,0.3)), color-stop(100%,rgba(247,247,247,0))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(247,247,247,0) 0%,rgba(247,247,247,0.3) 40%,rgba(247,247,247,0.3) 60%,rgba(247,247,247,0) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(247,247,247,0) 0%,rgba(247,247,247,0.3) 40%,rgba(247,247,247,0.3) 60%,rgba(247,247,247,0) 100%); /* Opera11.10+ */
+  background: -ms-linear-gradient(top, rgba(247,247,247,0) 0%,rgba(247,247,247,0.3) 40%,rgba(247,247,247,0.3) 60%,rgba(247,247,247,0) 100%); /* IE10+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f7f7f7', endColorstr='#00f7f7f7',GradientType=0 ); /* IE6-9 */
+  background: linear-gradient(top, rgba(247,247,247,0) 0%,rgba(247,247,247,0.3) 40%,rgba(247,247,247,0.3) 60%,rgba(247,247,247,0) 100%); /* W3C */
+}
+#copy {
+  font-size: 11px;
+  line-height: 16px;
   text-align:center;
+  
 }
 #footer a:hover {
   text-shadow: none !important;
@@ -132,7 +154,6 @@ html, body {
 /* article styles */
 .article {
   margin-top: 16px;
-  width: 542px;
 }
 pre {
   width: 100%;

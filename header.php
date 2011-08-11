@@ -41,43 +41,44 @@
   <body <?php body_class(); ?>>
     <div id='wrapper'>
       <div id='header'></div>
-      <div id='container'>
-        <div id='banner'>
-          <a href='/'><img src='<?php bloginfo('stylesheet_directory'); ?>/banner.png'></a>
-        </div>
-        <div id='nav'>
-          <div id='ribbon'>
-            <div id='rb-left-tri-dk' class='rb-tri rb-dk rb-left'></div>
-            <div id='rb-right-tri-dk' class='rb-tri rb-dk rb-right'></div>
-            <div id='rb-left-rect-dk' class='rb-rect rb-dk rb-left'></div>
-            <div id='rb-right-rect-dk' class='rb-rect rb-dk rb-right'></div>
+      <div id='banner'>
+        <a href='/'><img src='<?php bloginfo('stylesheet_directory'); ?>/banner.png'></a>
+      </div>
+      <div id='nav'>
+        <div id='ribbon'>
+          <div id='rb-left-tri-dk' class='rb-tri rb-dk rb-left'></div>
+          <div id='rb-right-tri-dk' class='rb-tri rb-dk rb-right'></div>
+          <div id='rb-left-rect-dk' class='rb-rect rb-dk rb-left'></div>
+          <div id='rb-right-rect-dk' class='rb-rect rb-dk rb-right'></div>
 
-            <div id='rb-left-tri-hi' class='rb-tri rb-hi rb-left'></div>
-            <div id='rb-right-tri-hi' class='rb-tri rb-hi rb-right'></div>
-            <div id='rb-left-top-tri' class='rb-tri rb-fr'></div>
-            <div id='rb-left-bot-tri' class='rb-tri rb-fr'></div>
-            <div id='rb-right-top-tri' class='rb-tri rb-fr'></div>
-            <div id='rb-right-bot-tri' class='rb-tri rb-fr'></div>
-            <div id='rb-left-rect' class='rb-rect rb-fr rb-left'></div>
-            <div id='rb-right-rect' class='rb-rect rb-fr rb-right'></div>
-            <div id='rb-left-inner-dk' class='rb-inner rb-dk'></div>
-            <div id='rb-right-inner-dk' class='rb-inner rb-dk'></div>
-            <div id='rb-left-inner' class='rb-inner rb-bk'></div>
-            <div id='rb-right-inner' class='rb-inner rb-bk'></div>
-            <div id='rb-ribbon-dk' class='rb-rect rb-dk'></div>
+          <div id='rb-left-tri-hi' class='rb-tri rb-hi rb-left'></div>
+          <div id='rb-right-tri-hi' class='rb-tri rb-hi rb-right'></div>
+          <div id='rb-left-top-tri' class='rb-tri rb-fr'></div>
+          <div id='rb-left-bot-tri' class='rb-tri rb-fr'></div>
+          <div id='rb-right-top-tri' class='rb-tri rb-fr'></div>
+          <div id='rb-right-bot-tri' class='rb-tri rb-fr'></div>
+          <div id='rb-left-rect' class='rb-rect rb-fr rb-left'></div>
+          <div id='rb-right-rect' class='rb-rect rb-fr rb-right'></div>
+          <div id='rb-left-inner-dk' class='rb-inner rb-dk'></div>
+          <div id='rb-right-inner-dk' class='rb-inner rb-dk'></div>
+          <div id='rb-left-inner' class='rb-inner rb-bk'></div>
+          <div id='rb-right-inner' class='rb-inner rb-bk'></div>
+          <div id='rb-ribbon-dk' class='rb-rect rb-dk'></div>
 
-            <div id='rb-ribbon' class='rb-rect'>
-              <a href='/'>blog</a><span class='nav-spacer'></span>
-              <a href='/work'>work</a><span class='nav-spacer'></span>
-              <a href='/about'>about</a><!--<span class='nav-spacer'></span>
-              <a href='/photos'>photos</a><span class='nav-spacer'></span>
-              <a href='/travel'>travel</a>-->
-            </div>
-
+          <div id='rb-ribbon' class='rb-rect'>
+            <span class='nav-spacer'></span>
+            <a href='/'>blog</a><span class='nav-spacer'></span><span class='nav-spacer'></span>
+            <a href='/work'>work</a><span class='nav-spacer'></span><span class='nav-spacer'></span>
+            <a href='/about'>about</a><span class='nav-spacer'></span><span class='nav-spacer'></span>
+            <a href='/photos'>photos</a>
+            <span style='float:right;margin-right:16px'><?php dynamic_sidebar('nav-menu'); ?></span>
           </div>
+
         </div>
+      </div>
+      <div class='container'>
+        
 
         <!--TODO put in a note article for "Viewing posts tagged 'Foo'" and one for "Viewing archive for 'Bar'"-->
-        <?php get_sidebar() ?>
       
       <!-- end header -->
