@@ -1,7 +1,7 @@
 <?php
 /**
  * @package WordPress
- * @subpackage spencerenglish
+ * @subpackage sewillia
  */
 
 automatic_feed_links();
