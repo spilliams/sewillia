@@ -67,7 +67,23 @@ a:hover, .nav-current {
 #sidebar>div {
   margin-top: 16px;
 }
-
+/* the new clearfix method I read about over at Perishable Press
+ * use it by putting "<div class='clearfix'></div>" after a floated element
+ */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0
+}
+* html .clearfix { /* IE6 */
+  zoom: 1
+}
+*:first-child+html .clearfix { /* IE7 */
+  zoom: 1
+}
 /* sticky footer by Ryan Fait http://ryanfait.com/sticky-footer */
 html, body {
   height: 100%;
