@@ -99,7 +99,7 @@ html, body {
   height: 266px;
 }
 #footer-menu {
-  height: 250px;
+  height: 234px;
   background: rgba(0,0,0,0.8);
   padding: 8px; 
 }
@@ -111,7 +111,7 @@ html, body {
   float:left;
 }
 .vr {
-  height: 234px;
+  height: 224px;
   width: 1px;
   margin: 5px 4px;
   float:left;
