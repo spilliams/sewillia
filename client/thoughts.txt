@@ -1,7 +1,0 @@
-headroom
-a:hover treatment
-banner grid
-vertical-spacing
-code/pre treatment (gist?)
-last.fm plugin
-twitter plugin
