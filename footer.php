@@ -10,17 +10,25 @@
   </div>
   <div id='footer'>
     <div id='footer-menu' class='dark'>
-      <div class='center full-wide'>
-        <div class='footer-menu'>here's a menu!</div>
+      <div class='full-wide'>
+        <div class='footer-menu one-wide'>
+          <?php if ( function_exists('dynamic_sidebar')) :
+            dynamic_sidebar('left-footer');
+          endif; ?>
+        </div>
         <div class='vr'></div>
-        <div class='footer-menu'>and a second one!</div>
+        <div class='footer-menu one-wide'>
+          <?php if ( function_exists('dynamic_sidebar')) :
+            dynamic_sidebar('mid-footer');
+          endif; ?>
+        </div>
         <div class='vr'></div>
-        <div class='footer-menu'>
+        <div class='footer-menu one-wide'>
           My Networks<br>
           <a href='http://twitter.com/#!/spilliams' target='_blank' class='networklink'><div class='badge-out'><div id='tw-badge' class='badge-in'>t</div></div> twitter</a>
-          <a href='http://github.com/spilliams' target='_blank' class='networklink'><div class='badge-out'><div id='g-badge' class='badge-in'>g</div></div> github</a><br>
+          <a href='http://github.com/spilliams' target='_blank' class='networklink'><div class='badge-out'><div id='g-badge' class='badge-in'>g</div></div> github</a>
           <a href='http://www.linkedin.com/in/spencerenglish' target='_blank' class='networklink'><div class='badge-out'><div id='in-badge' class='badge-in'>in</div></div> linkedin</a>
-          <a href='http://www.last.fm/user/pastavibes' target='_blank' class='networklink'><div class='badge-out'><div id='fm-badge' class='badge-in'>fm</div></div> lastfm</a><br>
+          <a href='http://www.last.fm/user/pastavibes' target='_blank' class='networklink'><div class='badge-out'><div id='fm-badge' class='badge-in'>fm</div></div> lastfm</a>
           <a href='http://www.facebook.com/spilliams' target='_blank' class='networklink'><div class='badge-out'><div id='fb-badge' class='badge-in'>fb</div></div> facebook</a>
           <a href='http://8tracks.com/pastavibes' target='_blank' class='networklink'><div class='badge-out'><div id='e-badge' class='badge-in'>8</div></div> 8tracks</a>
           <div class='clearfix'></div>

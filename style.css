@@ -32,9 +32,10 @@ a {
   border-style: solid;
   border-color: #bbb;
   top:0;
+  position:absolute;
 }
 #banner {
-  width: 515px;
+  text-align: center;
   padding-top: 7px;
   height: 47px;
 }
@@ -57,11 +58,21 @@ a:hover, .nav-current {
   display: inline-block;
 }
 #searchform label {display:none;}
-.full-wide {
-  width: 784px;
-}
+.full-wide { width: 769px; }
+.two-wide { width: 502px; }
+.one-wide { width: 235px; }
+.full-wide, .two-wide, .one-wide { padding: 8px; margin: 7px; display: inline-block; }
 .center {
   margin: 0 auto;
+}
+#main {
+  padding-top:107px;
+  width: 801px;
+}
+#sidebar {
+  display: inline-block;
+  position:absolute;
+  top:107px;
 }
 /* the new clearfix method I read about over at Perishable Press
  * use it by putting "<div class='clearfix'></div>" after a floated element
@@ -100,19 +111,26 @@ html, body {
 #footer-menu {
   height: 234px;
   background: rgba(0,0,0,0.7);
-  padding: 8px; 
+  padding: 8px;
+  text-align: center;
 }
-#footer-menu .container>div {
-  display: inline-block;
+#footer-menu .full-wide {
+  width: 785px;
+  margin: 0 auto;
+  padding:0;
 }
 .footer-menu {
-  width: 247px;
+  height: 234px;
+  width: 251px;
   float:left;
+  margin: 0;
+  padding: 0;
+  text-align:left;
 }
 .vr {
   height: 224px;
-  width: 1px;
-  margin: 5px 10px;
+  width: 2px;
+  margin: 5px 7px;
   float:left;
   background: -moz-linear-gradient(top, rgba(247,247,247,0) 0%, rgba(247,247,247,0.3) 40%, rgba(247,247,247,0.3) 60%, rgba(247,247,247,0) 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,247,247,0)), color-stop(40%,rgba(247,247,247,0.3)), color-stop(60%,rgba(247,247,247,0.3)), color-stop(100%,rgba(247,247,247,0))); /* Chrome,Safari4+ */
@@ -124,7 +142,7 @@ html, body {
 }
 .networklink {
   margin: 11px 0;
-  width: 121px;
+  width: 123px;
   height: 40px;
   display: inline-block;
   line-height: 40px;
@@ -194,9 +212,6 @@ a:hover .badge-out {
 }
 
 /* article styles */
-.article {
-  margin-top: 16px;
-}
 pre {
   width: 100%;
 }

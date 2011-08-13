@@ -14,12 +14,12 @@
       jQuery(window).scroll(function(){
         if (jQuery(window).scrollTop() > 50) {
           jQuery("#header").css({"position":"fixed","height":"45px"});
-          jQuery("#main").css({"margin-top":"111px"});
-          jQuery("#nav").css("margin-top","5px")
+          jQuery("#sidebar").css({"position":"fixed","top":"56px"});
+          jQuery("#nav").css("margin-top","5px");
           jQuery("#banner").hide();
         } else {
-          jQuery("#header").css({"position":"relative","height":"94px"});
-          jQuery("#main").css("margin-top",0);
+          jQuery("#header").css({"position":"absolute","height":"94px"});
+          jQuery("#sidebar").css({"position":"absolute","top":"107px"});
           jQuery("#nav").css("margin-top",0);
           jQuery("#banner").show();
         }
@@ -95,7 +95,7 @@
       </div>
         
         
-      <div id="main" class='center full-wide'>
+      <div id="main" class='center'>
         
 
         <!--TODO put in a note article for "Viewing posts tagged 'Foo'" and one for "Viewing archive for 'Bar'"-->

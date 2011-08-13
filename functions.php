@@ -14,11 +14,25 @@ if ( function_exists('register_sidebar') ){
     'before_widget' => '',
     'after_widget' => ''
   ));
+  register_sidebar(array(
+    'id' => 'left-footer',
+    'name' => __( 'Left Footer', $text_domain ),
+    'description' => __( 'This goes in the footer, on the left side.', $text_domain ),
+    'before_widget' => '',
+    'after_widget' => ''
+  ));
+  register_sidebar(array(
+    'id' => 'mid-footer',
+    'name' => __( 'Middle Footer', $text_domain ),
+    'description' => __( 'This goes in the footer, in the middle.', $text_domain ),
+    'before_widget' => '',
+    'after_widget' => ''
+  ));
   // register_sidebar(array(
   //     'id' => 'right-menu',
   //     'name' => __( 'Right Menu', $text_domain ),
   //     'description' => __( 'This sidebar is located in the right column of the page.', $text_domain ),
-  //     'before_widget' => '<div class="light">',
+  //     'before_widget' => '<div class="light one-wide">',
   //     'after_widget' => '</div>',
   //     'before_title' => '',
   //     'after_title' => '',
