@@ -8,7 +8,8 @@
 <html <?php language_attributes(); ?>>
   <head>
     <title>spencerenglish.com</title>
-    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js'></script>
+    <!-- <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js'></script> -->
+    <script type='text/javascript' src='<?php bloginfo('stylesheet_directory'); ?>/jquery-1.6.1.min.js'></script>
     <script type='text/javascript'>
       jQuery.noConflict();
       jQuery(window).scroll(function(){
@@ -58,7 +59,7 @@
     <div id='wrapper'>
       <div id='header'>
         <div id='banner' class='center'>
-          <a href='/'><img src='<?php bloginfo('stylesheet_directory'); ?>/banner.png'></a>
+          <a href='/'><span style='font-family:"Hero Light"'>the life and work of</span> spencer english williams<!-- <img src='<?php bloginfo('stylesheet_directory'); ?>/banner.png'> --></a>
         </div>
           <div id='nav' class='center'>
             <div id='ribbon'>

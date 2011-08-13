@@ -38,6 +38,7 @@ a {
   text-align: center;
   padding-top: 7px;
   height: 47px;
+  font: 24px/47px 'Hero';
 }
 #banner img { height: 40px; }
 #nav {
@@ -54,10 +55,10 @@ a:hover, .nav-current {
   line-height: 40px;
 }
 .nav-spacer {
-  width: 39px;
+  width: 47px;
   display: inline-block;
 }
-#searchform label {display:none;}
+#searchform label, #searchform [type='submit'] {display:none;}
 .full-wide { width: 769px; }
 .two-wide { width: 502px; }
 .one-wide { width: 235px; }
