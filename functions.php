@@ -28,6 +28,13 @@ if ( function_exists('register_sidebar') ){
     'before_widget' => '',
     'after_widget' => ''
   ));
+  register_sidebar(array(
+    'id' => 'right-footer',
+    'name' => __( 'Right Footer', $text_domain ),
+    'description' => __( 'This goes in the footer, on the right side.', $text_domain ),
+    'before_widget' => '',
+    'after_widget' => ''
+  ));
   // register_sidebar(array(
   //     'id' => 'right-menu',
   //     'name' => __( 'Right Menu', $text_domain ),

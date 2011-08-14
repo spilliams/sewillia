@@ -13,7 +13,7 @@ body {
   margin:0;
   padding:0;
   background: #f7f7f7 url('fabric_1.png') repeat fixed;
-  font:normal normal 300 16px/31px 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font:normal normal 300 16px/24px 'Helvetica Neue',Helvetica,Arial,sans-serif;
   color: #333333;
   overflow-y:scroll;
 }
@@ -110,22 +110,20 @@ html, body {
   height: 266px;
 }
 #footer-menu {
-  height: 234px;
+  height: 266px;
   background: rgba(0,0,0,0.7);
-  padding: 8px;
   text-align: center;
 }
 #footer-menu .full-wide {
-  width: 785px;
+  width: 801px;
+  padding: 0;
   margin: 0 auto;
-  padding:0;
 }
 .footer-menu {
   height: 234px;
-  width: 251px;
-  float:left;
-  margin: 0;
-  padding: 0;
+  float:left;/*
+    margin: 0;
+    padding: 0;*/
   text-align:left;
 }
 .vr {
@@ -143,7 +141,7 @@ html, body {
 }
 .networklink {
   margin: 11px 0;
-  width: 123px;
+  width: 49.3%;
   height: 40px;
   display: inline-block;
   line-height: 40px;
@@ -231,7 +229,6 @@ code, pre {
   -moz-box-shadow: rgba(255,255,255,0.4) 1px 1px 1px, rgba(0,0,0,0.75) 1px 1px 1px inset;
   -webkit-box-shadow: rgba(255,255,255,0.4) 1px 1px 1px, rgba(0,0,0,0.75) 1px 1px 1px inset;
   box-shadow: rgba(255,255,255,0.4) 1px 1px 1px, rgba(0,0,0,0.75) 1px 1px 1px inset;
-  margin: 0;
 }
 .light code, .light pre {
   background: #f7f7f7 url('fabric_2.png') repeat fixed;

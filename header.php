@@ -35,6 +35,7 @@
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/ribbon.css">
+    <link rel='stylesheet' href="<?php bloginfo('stylesheet_directory'); ?>/rss.css" />
     
     <?php wp_get_archives('type=monthly&format=link'); ?>
     <?php wp_head(); ?>
