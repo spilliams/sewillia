@@ -10,8 +10,13 @@
     <title>spencerenglish.com</title>
     <!-- <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js'></script> -->
     <script type='text/javascript' src='<?php bloginfo('stylesheet_directory'); ?>/jquery-1.6.1.min.js'></script>
+    <script type='text/javascript' src='<?php bloginfo('stylesheet_directory'); ?>/jquery.placeholder.min.js'></script>
     <script type='text/javascript'>
       jQuery.noConflict();
+      jQuery(function(){
+        jQuery("#s").attr('placeholder','search');
+        jQuery("#s").placeholder();
+      });
       jQuery(window).scroll(function(){
         if (jQuery(window).scrollTop() > 50) {
           jQuery("#header").css({"position":"fixed","height":"45px"});
