@@ -32,7 +32,6 @@
         <div class='clearfix'></div>
       </div>
     </div>
-    <div id='copy'>&copy; 2011 <a href='mailto:s@spencerenglish.com'>Spencer English Williams</a>. Last updated 10 August 2011. <?php echo sprintf(__("Powered by <a href='http://wordpress.org/' title='%s'>WordPress</a>"), __("Powered by WordPress, state-of-the-art semantic personal publishing platform.")); ?>.</div>
     <?php wp_footer(); ?>
   </div>
 </body>
