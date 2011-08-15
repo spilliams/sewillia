@@ -9,8 +9,8 @@
   <head>
     <title>spencerenglish.com</title>
     <!-- <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js'></script> -->
-    <script type='text/javascript' src='<?php bloginfo('stylesheet_directory'); ?>/jquery-1.6.1.min.js'></script>
-    <script type='text/javascript' src='<?php bloginfo('stylesheet_directory'); ?>/jquery.placeholder.min.js'></script>
+    <script type='text/javascript' src='<?php bloginfo('stylesheet_directory'); ?>/javascripts/jquery-1.6.1.min.js'></script>
+    <script type='text/javascript' src='<?php bloginfo('stylesheet_directory'); ?>/javascripts/jquery.placeholder.min.js'></script>
     <script type='text/javascript'>
       jQuery.noConflict();
       jQuery(function(){
@@ -38,9 +38,9 @@
     <link rel="alternate" type="application/atom+xml" title="<?php bloginfo('name'); ?> Atom Feed" href="<?php bloginfo('atom_url'); ?>">
     <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS 2.0 Feed" href="<?php bloginfo('rss2_url'); ?>">
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
-    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
-    <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/ribbon.css">
-    <link rel='stylesheet' href="<?php bloginfo('stylesheet_directory'); ?>/rss.css" />
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/stylesheets/style.css">
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/stylesheets/ribbon.css">
+    <link rel='stylesheet' href="<?php bloginfo('stylesheet_directory'); ?>/stylesheets/rss.css" />
     
     <?php wp_get_archives('type=monthly&format=link'); ?>
     <?php wp_head(); ?>

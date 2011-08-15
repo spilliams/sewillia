@@ -11,9 +11,7 @@ get_header(); ?>
 
 		<div id="post-0" class="post error404 not-found">
 			<div class="entry-content">
-				<center>You step in the stream,<br>
-        But the water has moved on.<br>
-        This page is not here.</center>
+				<center>This part of my life hasn't happened yet. Use the navigation links or search bar above to read about one that has.<br>(404 not found)</center>
 			</div><!-- .entry-content -->
 		</div><!-- #post-0 -->
 	</div>

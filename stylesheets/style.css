@@ -7,12 +7,12 @@ Version: 3.0
 */
 
 /* layout and navigation */
-@font-face{font-family:'Hero';src:url('webfonts/otf/Hero.otf') format('opentype'), url('webfonts/otf/Hero Light.otf') format('opentype')}
-@font-face {font-family:'FertigoPro-Italic';src: url('webfonts/eot/style_179946.eot?#iefix') format('embedded-opentype'),url('webfonts/woff/style_179946.woff') format('woff'),url('webfonts/ttf/style_179946.ttf') format('truetype'),url('webfonts/svg/style_179946.svg#FertigoPro-Italic') format('svg');}
+@font-face{font-family:'Hero';src:url('/wp-content/themes/spencerenglish 3.0/webfonts/otf/Hero.otf') format('opentype'), url('/wp-content/themes/spencerenglish 3.0/webfonts/otf/Hero Light.otf') format('opentype')}
+@font-face {font-family:'FertigoPro-Italic';src: url('/wp-content/themes/spencerenglish 3.0/webfonts/eot/style_179946.eot?#iefix') format('embedded-opentype'),url('/wp-content/themes/spencerenglish 3.0/webfonts/woff/style_179946.woff') format('woff'),url('/wp-content/themes/spencerenglish 3.0/webfonts/ttf/style_179946.ttf') format('truetype'),url('/wp-content/themes/spencerenglish 3.0/webfonts/svg/style_179946.svg#FertigoPro-Italic') format('svg');}
 body {
   margin:0;
   padding:0;
-  background: #f7f7f7 url('fabric_1.png') repeat fixed;
+  background: #f7f7f7 url('/wp-content/themes/spencerenglish 3.0/images/fabric_1.png') repeat fixed;
   font:normal normal 300 16px/24px 'Helvetica Neue',Helvetica,Arial,sans-serif;
   color: #333333;
   overflow-y:scroll;
@@ -107,10 +107,10 @@ html, body {
 }
 #footer {
   margin-top: 16px;
-  height: 266px;
+  height: 250px;
 }
 #footer-menu {
-  height: 266px;
+  height: 250px;
   background: rgba(0,0,0,0.7);
   text-align: center;
 }
@@ -120,24 +120,8 @@ html, body {
   margin: 0 auto;
 }
 .footer-menu {
-  height: 234px;
-  float:left;/*
-    margin: 0;
-    padding: 0;*/
-  text-align:left;
-}
-.vr {
-  height: 224px;
-  width: 2px;
-  margin: 5px 7px;
   float:left;
-  background: -moz-linear-gradient(top, rgba(247,247,247,0) 0%, rgba(247,247,247,0.3) 40%, rgba(247,247,247,0.3) 60%, rgba(247,247,247,0) 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,247,247,0)), color-stop(40%,rgba(247,247,247,0.3)), color-stop(60%,rgba(247,247,247,0.3)), color-stop(100%,rgba(247,247,247,0))); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, rgba(247,247,247,0) 0%,rgba(247,247,247,0.3) 40%,rgba(247,247,247,0.3) 60%,rgba(247,247,247,0) 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, rgba(247,247,247,0) 0%,rgba(247,247,247,0.3) 40%,rgba(247,247,247,0.3) 60%,rgba(247,247,247,0) 100%); /* Opera11.10+ */
-  background: -ms-linear-gradient(top, rgba(247,247,247,0) 0%,rgba(247,247,247,0.3) 40%,rgba(247,247,247,0.3) 60%,rgba(247,247,247,0) 100%); /* IE10+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f7f7f7', endColorstr='#00f7f7f7',GradientType=0 ); /* IE6-9 */
-  background: linear-gradient(top, rgba(247,247,247,0) 0%,rgba(247,247,247,0.3) 40%,rgba(247,247,247,0.3) 60%,rgba(247,247,247,0) 100%); /* W3C */
+  text-align:left;
 }
 .networklink {
   margin: 11px 0;
@@ -231,7 +215,7 @@ code, pre {
   box-shadow: rgba(255,255,255,0.4) 1px 1px 1px, rgba(0,0,0,0.75) 1px 1px 1px inset;
 }
 .light code, .light pre {
-  background: #f7f7f7 url('fabric_2.png') repeat fixed;
+  background: #f7f7f7 url('/wp-content/themes/spencerenglish 3.0/images/fabric_2.png') repeat fixed;
 }
 .article .content a, .article .meta a {
   color: #555;

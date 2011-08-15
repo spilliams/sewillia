@@ -16,7 +16,6 @@
             dynamic_sidebar('left-footer');
           endif; ?>
         </div>
-        <!--<div class='vr'></div>-->
         <div class='footer-menu one-wide'>
           <?php if ( function_exists('dynamic_sidebar')) :
             dynamic_sidebar('mid-footer');
@@ -25,7 +24,6 @@
             <a href="<?php echo wp_logout_url(curPageUrl()); ?>">Log Out</a>
           <?php } ?>
         </div>
-        <!--<div class='vr'></div>-->
         <div class='footer-menu one-wide'>
           <?php if ( function_exists('dynamic_sidebar')) :
             dynamic_sidebar('right-footer');
