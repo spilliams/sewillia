@@ -18,11 +18,14 @@ body {
   overflow-y:scroll;
 }
 p {
-  margin: 0; padding: 0;
+  margin: 16px 0; padding: 0;
 }
 a {
   color: inherit;
   text-decoration: none;
+}
+a img {
+  border: none;
 }
 #header {
   background-color: rgba(247,247,247,0.7);
@@ -76,7 +79,7 @@ a:hover, .nav-current {
 #sidebar {
   display: inline-block;
   position:absolute;
-  top:107px;
+  top:107px; /* change the value in the script too. d'oh! */
 }
 /* the new clearfix method I read about over at Perishable Press
  * use it by putting "<div class='clearfix'></div>" after a floated element
