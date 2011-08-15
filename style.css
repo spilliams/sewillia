@@ -12,7 +12,7 @@ Version: 3.0
 body {
   margin:0;
   padding:0;
-  background: #f7f7f7 url('/wp-content/themes/spencerenglish 3.0/images/fabric_1.png') repeat fixed;
+  background: #fbfbfb url('/wp-content/themes/spencerenglish 3.0/images/fabric_1.png') repeat fixed;
   font:normal normal 300 16px/24px 'Helvetica Neue',Helvetica,Arial,sans-serif;
   color: #333333;
   overflow-y:scroll;
@@ -123,6 +123,9 @@ html, body {
   float:left;
   text-align:left;
 }
+.networklink {
+  vertical-align: top;
+}
 .networklink img {
   height: 24px;
   display: inline-block;
@@ -185,7 +188,7 @@ a:hover .badge-out {
 /* treatments */
 .light {
   padding: 8px;
-  background: #f7f7f7;
+  background: #fbfbfb;
   -moz-box-shadow: rgba(255,255,255,0.4) 1px 1px 1px inset, rgba(0,0,0,0.75) 1px 1px 1px;
   -webkit-box-shadow: rgba(255,255,255,0.4) 1px 1px 1px inset, rgba(0,0,0,0.75) 1px 1px 1px;
   box-shadow: rgba(255,255,255,0.4) 1px 1px 1px inset, rgba(0,0,0,0.75) 1px 1px 1px;
@@ -220,7 +223,7 @@ code, pre {
   box-shadow: rgba(255,255,255,0.4) 1px 1px 1px, rgba(0,0,0,0.75) 1px 1px 1px inset;
 }
 .light code, .light pre {
-  background: #f7f7f7 url('/wp-content/themes/spencerenglish 3.0/images/fabric_2.png') repeat fixed;
+  background: #333333 url('/wp-content/themes/spencerenglish 3.0/images/fabric_2.png') repeat fixed;
 }
 .article .content a, .article .meta a {
   color: #555;
