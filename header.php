@@ -38,9 +38,9 @@
     <link rel="alternate" type="application/atom+xml" title="<?php bloginfo('name'); ?> Atom Feed" href="<?php bloginfo('atom_url'); ?>">
     <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS 2.0 Feed" href="<?php bloginfo('rss2_url'); ?>">
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
-    <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/stylesheets/style.css">
-    <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/stylesheets/ribbon.css">
-    <link rel='stylesheet' href="<?php bloginfo('stylesheet_directory'); ?>/stylesheets/rss.css" />
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/style.css">
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/ribbon.css">
+    <link rel='stylesheet' href="<?php bloginfo('stylesheet_directory'); ?>/rss.css" />
     
     <?php wp_get_archives('type=monthly&format=link'); ?>
     <?php wp_head(); ?>

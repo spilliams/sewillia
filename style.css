@@ -123,13 +123,18 @@ html, body {
   float:left;
   text-align:left;
 }
-.networklink {
-  margin: 11px 0;
-  width: 49.3%;
-  height: 40px;
+.networklink img {
+  height: 24px;
   display: inline-block;
-  line-height: 40px;
-  vertical-align: top;
+}
+.networklink:hover .lo {
+  display: none;
+}
+.networklink:hover .hi {
+  display: inline-block !important;
+}
+span.networklink:hover {
+  text-shadow: rgba(255,255,255,0.8) 1px 1px 1px !important;
 }
 .badge-out {
   -webkit-border-radius: 20px;
