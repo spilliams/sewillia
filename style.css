@@ -242,3 +242,8 @@ code, pre {
   font-size: 11px;
   line-height: normal;
 }
+.gallery-thumb {
+  display: inline-block;
+  margin: 8px;
+  width:173px;
+}

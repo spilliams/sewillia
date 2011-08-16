@@ -6,6 +6,9 @@
 
 automatic_feed_links();
 
+// Add support for a variety of post formats
+add_theme_support( 'post-formats', array( 'gallery' ) );
+
 if ( function_exists('register_sidebar') ){
   register_sidebar(array(
     'id' => 'nav-menu',
