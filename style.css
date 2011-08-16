@@ -7,12 +7,12 @@ Version: 3.0
 */
 
 /* layout and navigation */
-@font-face{font-family:'Hero';src:url('/wp-content/themes/spencerenglish 3.0/webfonts/otf/Hero.otf') format('opentype'), url('/wp-content/themes/spencerenglish 3.0/webfonts/otf/Hero Light.otf') format('opentype')}
-@font-face {font-family:'FertigoPro-Italic';src: url('/wp-content/themes/spencerenglish 3.0/webfonts/eot/style_179946.eot?#iefix') format('embedded-opentype'),url('/wp-content/themes/spencerenglish 3.0/webfonts/woff/style_179946.woff') format('woff'),url('/wp-content/themes/spencerenglish 3.0/webfonts/ttf/style_179946.ttf') format('truetype'),url('/wp-content/themes/spencerenglish 3.0/webfonts/svg/style_179946.svg#FertigoPro-Italic') format('svg');}
+@font-face{font-family:'Hero';src:url('/wp-content/themes/sewillia/webfonts/otf/Hero.otf') format('opentype'), url('/wp-content/themes/sewillia/webfonts/otf/Hero Light.otf') format('opentype')}
+@font-face {font-family:'FertigoPro-Italic';src: url('/wp-content/themes/sewillia/webfonts/eot/style_179946.eot?#iefix') format('embedded-opentype'),url('/wp-content/themes/sewillia/webfonts/woff/style_179946.woff') format('woff'),url('/wp-content/themes/sewillia/webfonts/ttf/style_179946.ttf') format('truetype'),url('/wp-content/themes/sewillia/webfonts/svg/style_179946.svg#FertigoPro-Italic') format('svg');}
 body {
   margin:0;
   padding:0;
-  background: #fbfbfb url('/wp-content/themes/spencerenglish 3.0/images/fabric_1.png') repeat fixed;
+  background: #fbfbfb url('/wp-content/themes/sewillia/images/fabric_1.png') repeat fixed;
   font:normal normal 300 16px/24px 'Helvetica Neue',Helvetica,Arial,sans-serif;
   color: #333333;
   overflow-y:scroll;
@@ -229,7 +229,7 @@ code, pre {
   box-shadow: rgba(255,255,255,0.4) 1px 1px 1px, rgba(0,0,0,0.75) 1px 1px 1px inset;
 }
 .light code, .light pre {
-  background: #333333 url('/wp-content/themes/spencerenglish 3.0/images/fabric_2.png') repeat fixed;
+  background: #333333 url('/wp-content/themes/sewillia/images/fabric_2.png') repeat fixed;
 }
 .article .content a, .article .meta a {
   color: #555;
