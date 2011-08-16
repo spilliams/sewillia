@@ -12,9 +12,8 @@
     <div id='footer-menu' class='dark'>
       <div class='full-wide'>
         <div class='footer-menu one-wide'>
-          <?php if ( function_exists('dynamic_sidebar')) :
-            dynamic_sidebar('left-footer');
-          endif; ?>
+          <img src='<?php bloginfo('stylesheet_directory'); ?>/images/me.png' style='float:left;margin:0 8px 8px 0;'>
+          Spencer is currently finishing his Mechanical Engineering degree at Carnegie Mellon University. He enjoys playing piano, cycling and brewing beer.
         </div>
         <div class='footer-menu one-wide'>
           Contact!<br>
