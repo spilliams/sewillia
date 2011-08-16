@@ -1,5 +1,5 @@
 <?php /* this displays normal format posts */ ?>
-content
+<!-- begin content -->
 <div class='article light full-wide'>
   <div class='header'>
     <a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a>
@@ -17,3 +17,4 @@ content
 
    <?php comments_template(); // Get wp-comments.php template ?>
 </div>
+<!-- end content -->
