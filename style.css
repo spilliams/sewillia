@@ -145,51 +145,6 @@ html, body {
 span.networklink:hover {
   text-shadow: rgba(255,255,255,0.8) 1px 1px 1px !important;
 }
-.badge-out {
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-  background: #ffffff;
-  height: 40px;
-  width: 40px;
-  display: inline-block;
-  position: relative;
-  -moz-box-shadow: rgba(255,255,255,0.4) 1px 1px 1px inset, rgba(0,0,0,0.75) 1px 1px 1px;
-  -webkit-box-shadow: rgba(255,255,255,0.4) 1px 1px 1px inset, rgba(0,0,0,0.75) 1px 1px 1px;
-  box-shadow: rgba(255,255,255,0.4) 1px 1px 1px inset, rgba(0,0,0,0.75) 1px 1px 1px;
-}
-a:hover .badge-out {
-  -moz-box-shadow: rgba(255,255,255,0.4) 1px 1px 1px inset, rgba(255,255,255,0.8) 1px 1px 1px;
-  -webkit-box-shadow: rgba(255,255,255,0.4) 1px 1px 1px inset, rgba(255,255,255,0.8) 1px 1px 1px;
-  box-shadow: rgba(255,255,255,0.4) 1px 1px 1px inset, rgba(255,255,255,0.8) 1px 1px 1px;
-}
-.badge-in {
-  -webkit-border-radius: 17px;
-  -moz-border-radius: 17px;
-  border-radius: 17px;
-  height: 34px;
-  width: 34px;
-  position: absolute;
-  top: 3px;
-  left: 3px;
-  text-align:center;
-  font-family: 'FertigoPro-Italic';
-  text-shadow: none;
-  font-size: 22px;
-  color: #ffffff;
-  line-height: 34px;
-}
-#tw-badge {background: #33ccff;}
-#g-badge {background: #666666;}
-#in-badge {background: #0066cc;}
-#fb-badge {background: #336699;}
-#fm-badge {background: #CC0000;}
-#e-badge {background: #003366;}
-#copy {
-  font-size: 11px;
-  line-height: 16px;
-  text-align:center;
-}
 
 /* treatments */
 .light {
