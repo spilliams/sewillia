@@ -1,3 +1,5 @@
+<?php /* This displays one gallery post with the assumption that it's not the only post on the page. */ ?>
+content-gallery
 <div class='article light full-wide'>
   <div class='header'>
     <a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a>

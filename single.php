@@ -4,6 +4,8 @@
  * @subpackage sewillia
  */
 get_header();
-get_template_part( 'content-single', get_post_format() );
+if (have_posts()) : while (have_posts()) : the_post();
+  get_template_part( 'content-single', get_post_format() );
+endwhile; endif;
 get_footer();
 ?>

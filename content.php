@@ -1,3 +1,5 @@
+<?php /* this displays normal format posts */ ?>
+content
 <div class='article light full-wide'>
   <div class='header'>
     <a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a>
