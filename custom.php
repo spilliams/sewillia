@@ -1,5 +1,5 @@
 <?php /*
-  Template Name: Grid
+  Template Name: Custom Layout
 */ ?>
 <?php get_header(); ?>
 
