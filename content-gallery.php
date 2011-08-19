@@ -21,11 +21,5 @@
 			
 	<?php endwhile; ?>
 
-  <p>
-    <?php wp_link_pages(); ?>
-    <?php comments_popup_link(__('Comments (0)'), __('Comments (1)'), __('Comments (%)')); ?>
-  </p>
-
-   <?php comments_template(); // Get wp-comments.php template ?>
 </div>
 <!-- end content-gallery -->

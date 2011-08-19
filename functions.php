@@ -9,25 +9,6 @@ automatic_feed_links();
 // Add support for a variety of post formats
 add_theme_support( 'post-formats', array( 'gallery' ) );
 
-if ( function_exists('register_sidebar') ){
-  register_sidebar(array(
-    'id' => 'nav-menu',
-    'name' => __( 'Nav Menu', $text_domain ),
-    'description' => __( 'This goes in the nav menu on the right side.', $text_domain ),
-    'before_widget' => '',
-    'after_widget' => ''
-  ));
-  // register_sidebar(array(
-  //     'id' => 'right-menu',
-  //     'name' => __( 'Right Menu', $text_domain ),
-  //     'description' => __( 'This sidebar is located in the right column of the page.', $text_domain ),
-  //     'before_widget' => '<div class="light one-wide">',
-  //     'after_widget' => '</div>',
-  //     'before_title' => '',
-  //     'after_title' => '',
-  //   ));
-}
-
 function curPageURL() {
   $pageURL = 'http';
   if ($_SERVER["HTTPS"] == "on") {$pageURL .= "s";}
