@@ -5,9 +5,7 @@
 
 <?php if (have_posts()) : while (have_posts()) : the_post();?>
 <div class='article light full-wide'>
-  <div class='header'>
-    <a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a>
-  </div>
+  <div class='header'><?php the_title(); ?></div>
   <div class='meta'>
     Posted on <?php the_time('j F Y') ?> by <?php the_author(); ?>. <?php edit_post_link('Edit', '', ''); ?>
   </div>
