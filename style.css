@@ -27,6 +27,15 @@ a {
 a img {
   border: none;
 }
+.fright {
+  float: right;
+}
+.fleft {
+  float: left;
+}
+.hidden {
+  display: none;
+}
 #header {
   background-color: rgba(247,247,247,0.7);
   width:100%;
