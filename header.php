@@ -92,8 +92,7 @@
                 <span class='nav-spacer'></span>
                 <a href='/'>blog</a><span class='nav-spacer'></span><span class='nav-spacer'></span>
                 <a href='/work'>work</a><span class='nav-spacer'></span><span class='nav-spacer'></span>
-                <a href='/about'>about</a><span class='nav-spacer'></span><span class='nav-spacer'></span>
-                <a href='/cat/photos'>photos</a>
+                <a href='/about'>about</a><span class='nav-spacer'></span>
                 <span style='float:right;margin-right:16px'><?php get_search_form(); ?></span>
               </div>
 

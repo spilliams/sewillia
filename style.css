@@ -58,7 +58,7 @@ a:hover, .nav-current {
   line-height: 40px;
 }
 .nav-spacer {
-  width: 47px;
+  width: 71px;
   display: inline-block;
 }
 #searchform label, #searchform [type='submit'] {display:none;}
