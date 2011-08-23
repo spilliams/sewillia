@@ -11,7 +11,7 @@ get_header();
   <div class='article light full-wide'><p><?php _e('Sorry, no posts matched your criteria.'); ?></p></div>
 <?php endif; ?>
 
-<?php posts_nav_link(" ", '<span class="fright post_nav">Newer Posts &raquo;</span>', '<span class="fleft post_nav">&laquo; Older Posts</span>'); ?>
+<?php posts_nav_link(" ", '<div class="article light fright" style="margin:8px;"><span class="post_nav">Newer Posts &raquo;</span></div>', '<div class="article light fleft" style="margin:8px;"><span class="fleft post_nav">&laquo; Older Posts</span></div>'); ?>
 <div class='clearfix'></div>
 
 <?php get_footer(); ?>
